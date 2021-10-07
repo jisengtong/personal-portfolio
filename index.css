@@ -129,7 +129,7 @@ header {
 
     @keyframes fade-in {
         from {
-            top: -80px;
+            top: -90px;
             opacity: 0;
         }
 
