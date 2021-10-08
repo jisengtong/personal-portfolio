@@ -130,7 +130,7 @@
             if (document.documentElement.scrollTop >= 1000) {
                 document.querySelector('.projects').classList.add('animations')
             }
-            if (document.documentElement.scrollTop >= 1820) {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight)  {
                 document.querySelector('footer').classList.add('animations')
             }
         })
