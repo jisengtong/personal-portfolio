@@ -140,7 +140,7 @@ header {
 }
 
 .description > p {
-    font-size:1.2rem;
+    font-size:1.1rem;
 }
 
 .profile {
@@ -305,6 +305,10 @@ footer {
 
     .profile {
         width: 80%;
+    }
+    
+    .description > p{
+        font-size:1rem;
     }
 }
 
