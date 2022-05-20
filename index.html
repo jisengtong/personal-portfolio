@@ -8,15 +8,15 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/99fbfcc1b4.js" crossorigin="anonymous"></script>
     <title>Welcome To My Portfolio Page</title>
-    <link rel="stylesheet" href="index.css" />
-
+    <link rel="stylesheet" href="index.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src = "portfolio.js"></script>
 </head>
 
 <body>
     <header>
         <button class="hamburger" id="navtoggler">&#9776</button>
-        <h1 class="title">MYFIRST SPACES</h1>
-
+        <h1 class="title">Portfolio</h1>
         <nav class="navlinks">
             <ul class="navbar">
                 <li><a href="#Home">Home</a></li>
@@ -116,58 +116,8 @@
             <p><i class="fa fa-phone" aria-hidden="true"></i> Contact No: 012-3456789</p>
         </div>
     </footer>
-
     <!--Back to top button fixed-->
     <button class="button top" id="returnTop"><i class="fas fa-arrow-up"></i> Top</button>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        //animations fade
-        window.addEventListener('scroll', function () {
-            if (document.documentElement.scrollTop >= 200) {
-                document.querySelector('.about').classList.add('animations')
-            }
-            if (document.documentElement.scrollTop >= 1000) {
-                document.querySelector('.projects').classList.add('animations')
-            }
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-                document.querySelector('footer').classList.add('animations')
-            }
-        })
-
-        //generates random quotes
-        let quotes = ['The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela',
-            `If you look at what you have in life, you'll always have more. -Oprah Winfrey`,
-            `Life is what happens when you're busy making other plans. -John Lennon`, `When you reach the end of your rope, tie a knot in it and hang on. -Franklin D. Roosevelt`,
-            `Whoever is happy will make others happy too. -Anne Frank`, `A good day starts with a cup of coffee. -Myself`];
-        let randomQuotes = quotes[Math.floor(Math.random() * quotes.length)];
-
-        //responsive nav button toggler
-        $(document).ready(function () {
-            $("#navtoggler").click(function () {
-                $(".navlinks").toggle(500)
-            })
-            $("#quotes").fadeIn(1000).html(`<em>"${randomQuotes}"</em>`)
-            $(".navlinks").each(function () {
-                $(this).click(function () {
-                    $(".navlinks").toggle(500)
-                })
-            })
-        })
-
-        //scroll top button
-        const topBtn = document.getElementById('returnTop')
-        window.addEventListener('scroll', () => {
-            if (document.documentElement.scrollTop > 700) {
-                topBtn.style.display = "unset";
-            } else {
-                topBtn.style.display = "none";
-            }
-        })
-        topBtn.addEventListener('click', () => {
-            document.documentElement.scrollTop = 0;
-        })
-    </script>
 </body>
 
 </html>
