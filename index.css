@@ -119,28 +119,7 @@ header {
     display: none;
 }
 
-.animations {
-        position: relative;
-        animation-name: fade-in;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes fade-in {
-        from {
-            top: -90px;
-            opacity: 0;
-        }
-
-        to {
-            top: 0px;
-            opacity: 1;
-        }
-}
-
 .about {
-    opacity: 0;
     padding: 1.5rem;
     max-width: 1200px;
     width: 100%;
@@ -163,7 +142,6 @@ header {
 }
 
 .projects {
-    opacity: 0;
     padding: 1rem 1rem 4rem;
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://wallpaperaccess.com/full/5651980.jpg);
     background-position: center;
@@ -207,7 +185,6 @@ header {
 }
 
 footer {
-    opacity: 0;
     background: #211e21;
     padding: 1.5rem;
     color: white;
