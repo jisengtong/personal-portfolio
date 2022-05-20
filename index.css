@@ -163,7 +163,7 @@ header {
     margin: 1rem auto;
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    gap:1em;
+    gap:2em;
 }
 
 .project-content a{
@@ -175,7 +175,7 @@ header {
 }
 
 .project-content img:hover{
-    transform:translateY(-10%);
+    transform:scale(1.05);
 }
 
 .top {
