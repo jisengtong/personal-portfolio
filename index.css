@@ -139,9 +139,10 @@ header {
     width: 100%;
 }
 
-.description > p{
-    text-align:center;
+.description > p {
+    font-size:1.2rem;
 }
+
 .profile {
     width: 30%;
     flex-shrink: 0;
