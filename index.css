@@ -182,7 +182,13 @@ header {
     font-size:1.1rem;
     display:inline-block;
     margin:1rem 0;
+    text-decoration: none;
 }
+
+.underline{
+    text-decoration: underline;
+}
+
 .top {
     position: fixed;
     right: 20px;
