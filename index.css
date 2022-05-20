@@ -110,10 +110,10 @@ header {
 .hamburger {
     position: absolute;
     left: 20px;
-    top: 22px;
+    top: 20px;
     background: transparent;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border: none;
     outline: none;
     display: none;
