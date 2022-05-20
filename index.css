@@ -178,6 +178,11 @@ header {
     transform:scale(1.08);
 }
 
+.repository__link{
+    font-size:1.1rem;
+    display:inline-block;
+    margin:1rem 0;
+}
 .top {
     position: fixed;
     right: 20px;
