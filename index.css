@@ -171,11 +171,11 @@ header {
 }
 
 .project-content img{
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .project-content img:hover{
-    transform:scale(1.05);
+    transform:scale(1.08);
 }
 
 .top {
