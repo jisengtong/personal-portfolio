@@ -33,6 +33,7 @@ header {
     top: 0;
     justify-content: space-between;
     padding: 0 2rem;
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 .navbar {
