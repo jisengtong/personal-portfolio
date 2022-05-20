@@ -130,6 +130,7 @@ header {
 .wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .description {
@@ -139,6 +140,7 @@ header {
 
 .profile {
     width: 30%;
+    flex-shrink: 0;
 }
 
 .projects {
