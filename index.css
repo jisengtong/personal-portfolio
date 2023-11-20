@@ -169,17 +169,27 @@ header {
     max-width: 1400px;
     width: 100%;
     margin: 1rem auto;
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr)); */
     gap:2em;
 }
 
+.project-content{
+    width: 400px;
+}
+
 .project-content a{
+    text-decoration: none;
     color: white;
 }
 
 .project-content img{
     transition: 0.3s;
+    
 }
 
 .project-content img:hover{

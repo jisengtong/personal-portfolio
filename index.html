@@ -8,15 +8,15 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/99fbfcc1b4.js" crossorigin="anonymous"></script>
     <title>Welcome To My Portfolio Page</title>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src = "portfolio.js"></script>
+    <script defer src="portfolio.js"></script>
 </head>
 
 <body>
     <header>
         <button class="hamburger" id="navtoggler">&#9776</button>
-        <h1 class="title">Portfolio</h1>
+        <h1 class="title">Ji Seng's Portfolio</h1>
         <nav class="navlinks">
             <ul class="navbar">
                 <li><a href="#Home">Home</a></li>
@@ -30,8 +30,9 @@
     <main>
         <section class="banner" id="Home">
             <div class="big-text center-text animations">
-                <h2><i class="fas fa-mug-hot"></i> Welcome To My Portfolio</h2>
-                <p><em>I Am Tong Ji Seng</em></p>
+                <h2><i class="fas fa-mug-hot" style="display:block; margin-bottom:1rem;"></i> Welcome To My Portfolio
+                    Website</h2>
+                <p><em>Hello, may today be a good day to you.</em></p>
                 <p id="quotes"></p>
                 <a href="#Project"><button class="button learn-more">View My Projects</button> </a>
             </div>
@@ -41,12 +42,20 @@
             <h2 class="big-text center-text"><i class="fas fa-user"></i> About Me</h2>
             <div class="wrapper">
                 <div class="description">
-                    <p> Hi, I am <span style="font-weight:600;">Tong Ji Seng</span>. Currently a final year Software Engineering student in pursuit for a Bachelor Degree of
-                        Information Technology in SEGi University, Malaysia. I am now seeking for a Web Developer Internship to apply. 
-                        Looking forward to gain industry level knowledge and utilise my skills to provide value to your company.</p>
-                    <p> <span style="font-weight:600;">*Skills:</span> HTML 5, CSS 3, JavaScript, PHP, WordPress, C++, Java and Python.
-                        <br><span style="font-weight:600;">*Font-End Frameworks/Libraries:</span> Bootstrap 5, Tailwind CSS, Jquery, and React.
-                           <br><span style="font-weight:600;">*Database and Administration Tools:</span> MySQL, Phpmyadmin, Microsoft SQL Server Management Studio and Firebase
+                    <p> I am <span style="font-weight:600;">Tong Ji Seng</span>, a fresh graduate from SEGi
+                        University in
+                        Malaysia. In September 2023, I graduated with a Bachelor Degree of Information
+                        Technology (IT) and I am currently looking for a full time job. Below are my technical skills
+                        and experties:
+                    </p>
+                    <p> <span style="font-weight:600;">*Programming Languages:</span> HTML 5, CSS 3, JavaScript, PHP,
+                        Python, C++, C#, Java.
+                        <br><span style="font-weight:600;">*Font-End Frameworks:</span> WordPress, Bootstrap 5, Tailwind
+                        CSS, Jquery, and ReactJS.
+                        <br><span style="font-weight:600;">*Back-End:</span> PHP Laravel, Node.js & Express.js, and REST
+                        APIs.
+                        <br><span style="font-weight:600;">*Database and Administration Tools:</span> MySQL, MongoDB,
+                        Microsoft SQL Server Management Studio and Google Firebase.
                     </p>
                 </div>
             </div>
@@ -56,33 +65,49 @@
             <h2 class="project__title center-text">My Featured Projects</h2>
             <div class="grid-projects">
                 <div class="project-content">
-                    <h2 style="text-decoration:underline; margin-bottom:1.5rem;">Static Landing Page</h2>
                     <a href="https://jisengtong.github.io/personalproject1/" target="_blank" rel="noopener">
+                        <h2 style="margin-bottom:1.5rem;">Static Landing Page <i class="fas fa-external-link-alt"></i>
+                        </h2>
                         <img src="./image/project1.PNG" alt="personal-project-1">
                     </a>
-                    <a href="https://github.com/jisengtong/personalproject1/" target="_blank" rel="noreferrer noopener" class="repository__link">
+                    <a href="https://github.com/jisengtong/personalproject1/" target="_blank" rel="noreferrer noopener"
+                        class="repository__link">
                         <i class="fab fa-github"></i> <span class="underline">Repository</span>
                     </a>
                 </div>
                 <div class="project-content">
-                    <h2 style="text-decoration:underline; margin-bottom:1.5rem;">Tip Calculator</h2>
                     <a href="https://jisengtong.github.io/personalproject2/" target="_blank" rel="noopener">
+                        <h2 style="margin-bottom:1.5rem;">Tip Calculator <i class="fas fa-external-link-alt"></i></h2>
                         <img src="./image/project2.PNG" alt="personal-project-2">
                     </a>
-                        <a href="https://github.com/jisengtong/personalproject2/" target="_blank" rel="noreferrer noopener" class="repository__link">
-                            <i class="fab fa-github"></i> <span class="underline">Repository</span>
-                        </a>
+                    <a href="https://github.com/jisengtong/personalproject2/" target="_blank" rel="noreferrer noopener"
+                        class="repository__link">
+                        <i class="fab fa-github"></i> <span class="underline">Repository</span>
+                    </a>
                 </div>
                 <div class="project-content">
-                     <h2 style="text-decoration:underline; margin-bottom:1.5rem;">To Do List</h2>
                     <a href="https://jisengtong.github.io/personalproject3/" target="_blank" rel="noopener">
+                        <h2 style="margin-bottom:1.5rem;">To Do List <i class="fas fa-external-link-alt"></i></h2>
                         <img src="./image/project3.PNG" alt="personal-project-3">
                     </a>
-                        <a href="https://github.com/jisengtong/personalproject3/" target="_blank" rel="noreferrer noopener" class="repository__link"> 
-                            <i class="fab fa-github"></i> <span class="underline">Repository</span>
-                        </a>
+                    <a href="https://github.com/jisengtong/personalproject3/" target="_blank" rel="noreferrer noopener"
+                        class="repository__link">
+                        <i class="fab fa-github"></i> <span class="underline">Repository</span>
+                    </a>
+                </div>
+                <div class="project-content span-all">
+                    <a href="https://jisengtong.github.io/genshindb" target="_blank" rel="noopener">
+                        <h2 style="margin-bottom:1.5rem;">Game Info Website <i class="fas fa-external-link-alt"></i>
+                        </h2>
+                        <img src="./image/project4.PNG" alt="personal-project-4">
+                    </a>
+                    <a href="https://github.com/jisengtong/genshindb" target="_blank" rel="noreferrer noopener"
+                        class="repository__link">
+                        <i class="fab fa-github"></i> <span class="underline">Repository</span>
+                    </a>
                 </div>
             </div>
+
         </section>
     </main>
 
@@ -90,13 +115,16 @@
         <div class="contact center-text">
             <h2 class="big-text"><i class="fas fa-comment"></i> Reach Me Out</h2>
             <ul class="social-links">
-                <li><a href="mailto:jiseng2015@gmail.com" target="_blank" rel="noreferrer noopener"><i class="fas fa-envelope"></i></a></li>
-                <li><a href="tel:+60122998915" target="_blank" rel="noreferrer noopener"><i class="fa fa-phone" aria-hidden="true"></i> </a></li>
-                <li><a href="https://github.com/jisengtong/" target="_blank" rel="noreferrer noopener"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:jiseng2015@gmail.com" target="_blank" rel="noreferrer noopener"><i
+                            class="fas fa-envelope"></i></a></li>
+                <li><a href="tel:+60122998915" target="_blank" rel="noreferrer noopener"><i class="fa fa-phone"
+                            aria-hidden="true"></i> </a></li>
+                <li><a href="https://github.com/jisengtong/" target="_blank" rel="noreferrer noopener"><i
+                            class="fab fa-github"></i></a></li>
             </ul>
-            <p style="font-size:1rem; margin: 2rem 0 0 0;">Developed by Tong Ji Seng © 2022</p>
+            <p style="font-size:1rem; margin: 2rem 0 0 0;">Website Developed by Tong Ji Seng © 2023</p>
         </div>
-        
+
     </footer>
     <!--Back to top button fixed-->
     <button class="button top" id="returnTop"><i class="fas fa-arrow-up"></i> Top</button>
